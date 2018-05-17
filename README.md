@@ -1,5 +1,15 @@
 # ml_study
 
+	$ python -V
+	Python 3.6.4 :: Anaconda, Inc.
+	$ pip --version
+	pip 10.0.1
+	$ pip list | grep jupyter
+	jupyter 1.0.0
+	$ pip list | grep scikit-learn
+	scikit-learn 0.19.1
+
+
 このプログラムは突然消すかも  
 
 scikit-learnを使って、同じデータ(iris)に対して  
@@ -37,9 +47,9 @@ scikit-learnを使って、同じデータ(iris)に対して
 | Support Vector Mac                    | サポートベクターマシン                |
 | Working with text documents           | テキスト文書                          |
 | Decision Trees                        | 分類木                                |
+|                                       |                                       |
 
-
-## 作って動作確認したのものメモ
+## 作って動作確認したもののメモ
 
 作ったもの
 
@@ -57,14 +67,19 @@ scikit-learnを使って、同じデータ(iris)に対して
 
 未作成
 
-| 機械学習        | 項目                                  | 関数名               |
-| :-------------- | :------------                         | :------------        |
-| 分類            | パーセプトロン                        |                      |
-| 分類            | ニューラルネットワーク                |                      |
-| 分類            | GBDT(Gradient Boosting Decision Tree) |                      |
-| クラスタリング  | k近傍法                               | KNeighborsClassifier |
+| 機械学習        | 項目                                  | 関数名                     |
+| :-------------- | :------------                         | :------------              |
+| 分類            | パーセプトロン                        |                            |
+| 分類            | ニューラルネットワーク                |                            |
+| 分類            | GBDT(Gradient Boosting Decision Tree) | GradientBoostingClassifier |
+| クラスタリング  | k近傍法                               | KNeighborsClassifier       |
 
 
+流行りのGBDTとXGBoostとかその辺触れるようにしときたい
+
+###### XGBoost
+* Gradient BoostingとRandom Forestsを組み合わせたアンサンブル学習である
+* [XGBoostの主な特徴と理論の概要](https://qiita.com/yh0sh/items/1df89b12a8dcd15bd5aa)
 
 ## 構築メモ
 決定木の可視化(jupyter)が上手くいかなかったため、以下のライブラリを追加でインストールした
