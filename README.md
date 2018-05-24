@@ -200,4 +200,41 @@ scikit-learnを使って、同じデータ(iris)に対して
 | クロスバリデーション | sklearn.cross_validation |
 |                      |                          |
 
+## scikit-leanrのサンプルデータセットのメモ
+* iris dataset
+	* classification向き
+	* 言わずと知れたアイリスさんちのデータ
+	* 4カラム、150レコード、3ラベル
+* wine dataset
+	* classification向き
+	* ワインの中に含まれる化学物質の量などを説明変数として、ワインの等級（3クラス）を予測
+	* 13カラム、178レコード、ラベル
+	* [説明変数の参考](https://qiita.com/Dixhom/items/7c33a1dc85144e1da822)
+* digits dataset
+	* classification向き
+	* 0 ～ 9 の 10 文字の手書きの数字を 64 (8×8) 個の画素に分解したもの。
+	* MNISTみたいなもの
+	* 64カラム、1797レコード、10ラベル
+* breast cancer wisconsin dataset
+	* classification向き
+	* ウィスコンシンの乳がんのデータ
+	* 検査値32ラベル、診断569ケース、診断結果2ラベル(良性腫瘍 or 悪性腫瘍)
+* boston house-prices dataset
+	* regression向き
+	* 米国ボストン市郊外における地域別の住宅価格のデータセット
+	* 14カラム、506レコード
+* diabetes dataset 
+	* regression向き
+	* 糖尿病患者 442 人の検査数値と 1 年後の疾患進行状況（正規化済み）
+	* 10カラム、442レコード
+* linnerud dataset
+	* multivariate regression向き
+	* 成人男性に対してフィットネスクラブで測定した 3 つの生理学的特徴と 3 つの運動能力の関係。
+	* 説明変数3,目的変数3,レコード数20
+
+
+[まとめてくれているサイトを参考に](https://pythondatascience.plavox.info/scikit-learn/scikit-learn%E3%81%AB%E4%BB%98%E5%B1%9E%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88)
+
+
+
 
